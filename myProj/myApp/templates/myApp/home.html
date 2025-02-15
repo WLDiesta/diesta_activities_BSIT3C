@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* Import Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Body Styling */
+        body {
+            background: linear-gradient(135deg, #1e1e2f, #3a3a5f);
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Container */
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+        }
+
+        /* Title */
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            color: #f8f8f8;
+        }
+
+        /* Paragraph */
+        p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: #ddd;
+            margin-bottom: 20px;
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #fff;
+            background: #ff7b00;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: 0.3s ease-in-out;
+            box-shadow: 0px 4px 15px rgba(255, 123, 0, 0.3);
+        }
+
+        .btn:hover {
+            background: #ff9c40;
+            box-shadow: 0px 6px 20px rgba(255, 123, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Django Practices.</p>
+        <a href="admin/" class="btn">Go to admin</a>
+    </div>
+</body>
+</html>
