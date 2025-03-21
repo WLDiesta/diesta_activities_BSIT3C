@@ -7,14 +7,6 @@ def home(request):
     context={}
     return render(request, "myApp/home.html", context)
 
-def dashboard(request):
-    data = [
-        {"title": "Users", "count": 150},
-        {"title": "Orders", "count": 320},
-        {"title": "Revenue", "count": "12450"},
-    ]
-    return render(request, 'myApp/dashboard.html', {"data": data})
-
 items = [
     {"id": 1, "name": "Laptop", "price": 1000},
     {"id": 2, "name": "Mouse", "price": 50},
