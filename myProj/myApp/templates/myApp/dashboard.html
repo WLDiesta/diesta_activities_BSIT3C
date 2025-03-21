@@ -1,0 +1,11 @@
+{% extends 'myApp/base.html' %}
+
+{% block content %}
+    <h1>Dashboard</h1>
+    {% for item in data %}
+        <div class="card">
+            <h2>{{ item.title }}</h2>
+            <p>Count: {{ item.count }}</p>
+        </div>
+    {% endfor %}
+{% endblock %}
